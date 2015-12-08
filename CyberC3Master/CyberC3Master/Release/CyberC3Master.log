@@ -1,0 +1,18 @@
+﻿生成启动时间为 2015/10/15 10:17:18。
+     1>项目“E:\CyberC3\Coding\CyberC3Master\CyberC3Master\CyberC3Master.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\CyberC3Master.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CyberC3Master.cpp
+         CyberC3Master.cpp
+     1>CyberC3Master.cpp(11): warning C4101: “x”: 未引用的局部变量
+     1>CyberC3Master.cpp(10): warning C4101: “i”: 未引用的局部变量
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CyberC3\Coding\CyberC3Master\Release\CyberC3Master.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d248.lib opencv_contrib248.lib opencv_core248.lib opencv_features2d248.lib opencv_flann248.lib opencv_gpu248.lib opencv_highgui248.lib opencv_imgproc248.lib opencv_legacy248.lib opencv_ml248.lib opencv_objdetect248.lib opencv_ts248.lib opencv_video248.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\CyberC3\Coding\CyberC3Master\Release\CyberC3Master.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CyberC3\Coding\CyberC3Master\Release\CyberC3Master.lib" /MACHINE:X86 /SAFESEH Release\CyberC3Master.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         CyberC3Master.vcxproj -> E:\CyberC3\Coding\CyberC3Master\Release\CyberC3Master.exe
+     1>已完成生成项目“E:\CyberC3\Coding\CyberC3Master\CyberC3Master\CyberC3Master.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.80

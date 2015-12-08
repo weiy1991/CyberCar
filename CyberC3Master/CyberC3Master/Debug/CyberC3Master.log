@@ -1,0 +1,16 @@
+﻿生成启动时间为 2015/11/4 11:39:10。
+     1>项目“E:\CyberC3\Coding\CyberC3Master\CyberC3Master\CyberC3Master.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yu"stdafx.h" /Fp"Debug\CyberC3Master.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CyberC3Master.cpp
+         CyberC3Master.cpp
+     1>e:\cyberc3\coding\cyberc3master\cyberc3master\cyberc3master.cpp(186): warning C4101: “a”: 未引用的局部变量
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CyberC3\Coding\CyberC3Master\Debug\CyberC3Master.exe" /INCREMENTAL /NOLOGO opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_objdetect248d.lib opencv_ts248d.lib opencv_video248d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\CyberC3\Coding\CyberC3Master\Debug\CyberC3Master.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CyberC3\Coding\CyberC3Master\Debug\CyberC3Master.lib" /MACHINE:X86 Debug\CyberC3Master.obj
+         Debug\stdafx.obj
+         Debug\StereoVision.obj
+         CyberC3Master.vcxproj -> E:\CyberC3\Coding\CyberC3Master\Debug\CyberC3Master.exe
+     1>已完成生成项目“E:\CyberC3\Coding\CyberC3Master\CyberC3Master\CyberC3Master.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.77
