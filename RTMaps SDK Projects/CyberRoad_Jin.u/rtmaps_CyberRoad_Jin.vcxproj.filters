@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="CyberRoad_Jin.pckinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f3223df6-8450-4e2b-b4e3-c5f1f1b8c9e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_interfaces">
+      <UniqueIdentifier>{7e3c516b-0454-449e-a3c4-a0c9ba6f573e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="local_interfaces\maps_OPENCVTEST.h">
+      <Filter>local_interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\maps_OPENCVTEST.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

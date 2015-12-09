@@ -1,0 +1,13 @@
+
+/*! \defgroup Chapter3 Chapter 3 - Image processing.
+ * This section demonstrates how to perform image processing
+ * within RTMaps components: the IplImage structure, how to 
+ * get images, how to generate images, etc...
+ * Start with:
+ *	- ImageHeaderDisplay
+ *	- ImageGenerator
+ *	- simple_imageprocessing
+ *	- MonoVisionIPUSample
+ *	- then FusionSamples and StereoVision
+ */
+

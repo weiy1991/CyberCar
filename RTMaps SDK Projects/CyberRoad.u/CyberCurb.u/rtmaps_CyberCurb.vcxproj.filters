@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="CyberCurb.pckinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{ae62e48e-3519-4916-920c-8d16a41c2557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_interfaces">
+      <UniqueIdentifier>{f2802c37-19d6-42ca-90f2-f3c2a1d7f10a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\local_interfaces\maps_OPENCVTEST.h">
+      <Filter>local_interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\maps_OPENCVTEST.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

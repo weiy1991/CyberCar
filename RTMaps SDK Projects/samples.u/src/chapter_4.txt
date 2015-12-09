@@ -1,0 +1,6 @@
+
+/*! \defgroup Chapter4 Chapter 4 - CAN frames handling.
+ * This section demonstrates how to handle CAN frames
+ * (using the MAPSCANFrame structure).
+ */
+

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>rtmaps_samples</ProjectName>
+    <ProjectGuid>{4175E4EB-0F5A-4083-94A5-4115CC512E14}</ProjectGuid>
+    <RootNamespace>rtmaps_samples</RootNamespace>
+    <SccLocalPath>.</SccLocalPath>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+	<PlatformToolset>v110_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+	<PlatformToolset>v110_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(RTMAPS_SDKDIR)\templates.u\RTMaps_x86_Debug_vc2012.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(RTMAPS_SDKDIR)\templates.u\RTMaps_x86_Release_vc2012.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Link>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Link>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+	  <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup Label="RTMaps_sources">
+    <ClCompile Include="src\maps_CANReader.cpp" />
+    <ClCompile Include="src\maps_CANWriter.cpp" />
+    <ClCompile Include="src\maps_ComponentWithActions.cpp" />
+    <ClCompile Include="src\maps_counter.cpp" />
+    <ClCompile Include="src\maps_customclock.cpp" />
+    <ClCompile Include="src\maps_DynamicInputs.cpp" />
+    <ClCompile Include="src\maps_enum_props.cpp" />
+    <ClCompile Include="src\maps_FusionSampleWithMultipleStartReading.cpp" />
+    <ClCompile Include="src\maps_FusionSampleWithSamplingReaders.cpp" />
+    <ClCompile Include="src\maps_ImageGenerator.cpp" />
+    <ClCompile Include="src\maps_multiplier_1.cpp" />
+    <ClCompile Include="src\maps_multiplier_2.cpp" />
+    <ClCompile Include="src\maps_multiplier_3.cpp" />
+    <ClCompile Include="src\maps_multiplier_4.cpp" />
+    <ClCompile Include="src\maps_MultiThread.cpp" />
+    <ClCompile Include="src\maps_MultiThreadAndSynchronisation.cpp" />
+    <ClCompile Include="src\maps_RRMUserStructure.cpp" />
+    <ClCompile Include="src\maps_SetProperty_Overload.cpp" />
+    <ClCompile Include="src\maps_simple_imageprocessing.cpp" />
+    <ClCompile Include="src\maps_stream_decoder_sample.cpp" />
+    <ClCompile Include="src\maps_synchronizercomponent.cpp" />
+    <ClCompile Include="src\maps_UserStructureInput.cpp" />
+    <ClCompile Include="src\maps_UserStructureOutput.cpp" />
+    <ClCompile Include="src\maps_vectorizer_sample_0_ERROR_TO_BANISH.cpp" />
+    <ClCompile Include="src\maps_vectorizer_sample_1_triggered.cpp" />
+    <ClCompile Include="src\maps_vectorizer_sample_2_reactive.cpp" />
+    <ClCompile Include="src\maps_vectorizer_sample_3_resampling.cpp" />
+    <ClCompile Include="src\maps_vectorizer_sample_4_resynchronizer.cpp" />
+    <ClCompile Include="src\maps_vectorizer_sample_5_generic.cpp" />
+  </ItemGroup>
+  <ItemGroup Label="RTMaps_headers">
+    <ClInclude Include="local_interfaces\maps_CANReader.h" />
+    <ClInclude Include="local_interfaces\maps_CANWriter.h" />
+    <ClInclude Include="local_interfaces\maps_ComponentWithActions.h" />
+    <ClInclude Include="local_interfaces\maps_counter.h" />
+    <ClInclude Include="local_interfaces\maps_customclock.h" />
+    <ClInclude Include="local_interfaces\maps_DynamicInputs.h" />
+    <ClInclude Include="local_interfaces\maps_enum_props.h" />
+    <ClInclude Include="local_interfaces\maps_FusionSampleWithMultipleStartReading.h" />
+    <ClInclude Include="local_interfaces\maps_FusionSampleWithSamplingReaders.h" />
+    <ClInclude Include="local_interfaces\maps_ImageGenerator.h" />
+    <ClInclude Include="local_interfaces\maps_multiplier_1.h" />
+    <ClInclude Include="local_interfaces\maps_multiplier_2.h" />
+    <ClInclude Include="local_interfaces\maps_multiplier_3.h" />
+    <ClInclude Include="local_interfaces\maps_multiplier_4.h" />
+    <ClInclude Include="local_interfaces\maps_MultiThread.h" />
+    <ClInclude Include="local_interfaces\maps_MultiThreadAndSynchronisation.h" />
+    <ClInclude Include="local_interfaces\maps_RRMUserStructure.h" />
+    <ClInclude Include="local_interfaces\maps_SetProperty_Overload.h" />
+    <ClInclude Include="local_interfaces\maps_simple_imageprocessing.h" />
+    <ClInclude Include="local_interfaces\maps_stream_decoder_sample.h" />
+    <ClInclude Include="local_interfaces\maps_synchronizercomponent.h" />
+    <ClInclude Include="local_interfaces\maps_Threshold.h" />
+    <ClInclude Include="local_interfaces\maps_UserStructureInput.h" />
+    <ClInclude Include="local_interfaces\maps_UserStructureOutput.h" />
+    <ClInclude Include="local_interfaces\maps_vectorizer_sample_0_ERROR_TO_BANISH.h" />
+    <ClInclude Include="local_interfaces\maps_vectorizer_sample_1_triggered.h" />
+    <ClInclude Include="local_interfaces\maps_vectorizer_sample_2_reactive.h" />
+    <ClInclude Include="local_interfaces\maps_vectorizer_sample_3_resampling.h" />
+    <ClInclude Include="local_interfaces\maps_vectorizer_sample_4_resynchronizer.h" />
+    <ClInclude Include="local_interfaces\maps_vectorizer_sample_5_generic.h" />
+    <ClInclude Include="local_interfaces\UserDefinitions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rtmaps_samples.pckinfo" />
+    <None Include="src\chapter_1.txt" />
+    <None Include="src\chapter_2.txt" />
+    <None Include="src\chapter_3.txt" />
+    <None Include="src\chapter_4.txt" />
+    <None Include="src\chapter_5.txt" />
+    <None Include="src\chapter_6.txt" />
+    <None Include="src\chapter_7.txt" />
+    <None Include="src\chapter_8.txt" />
+    <None Include="src\chapter_9.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

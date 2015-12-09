@@ -1,0 +1,21 @@
+
+/*! \defgroup Chapter7 Chapter 7 - Stream.
+ * This section demonstrates how to write components that
+ * deal with stream data (packets of bytes).
+ *
+ * maps_rs232sensor.cpp and maps_rs232sensorWithOutput.cpp simply deal with
+ * Stream8 typed data (e.g. single packets of bytes), using the usual methods (e.g.
+ * StartReading, StartWriting, etc.)
+ * 
+ * However, sometimes, such stream data contain messages that have to be parsed
+ * but the packets may not contain entire messages (a packet can start in the
+ * middle of a message, and end in the middel of the next one), hence the
+ * need for a way to push the packets into an internal ring buffer, and
+ * pop data when a complete message has been exploited.
+ * In order to develop such a stream parser component, make a component
+ * which inherits from the special "Stream8IOComponentTemplate" and use the 
+ * MAPSRBRegion API as demonstrated in 
+ * maps_Stream8IOSample.cpp
+*/
+
+

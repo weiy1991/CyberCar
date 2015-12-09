@@ -1,0 +1,8 @@
+
+/*! \defgroup Chapter9 Chapter 9 - Record/Replay methods
+ * This section demonstrates how to write a new record/replay method.
+ * When the package registers into RTMaps, the new record/replay method will
+ * be available to record data in a certain format with the Recorder component,
+ * then the Player component can use it to replay the data.
+*/
+

@@ -1,0 +1,6 @@
+
+/*! \defgroup Chapter1 Chapter 1 - Numeric data handling.
+ * This chapter contains some simple samples that show how to program
+ * components that deal with numeric data (how to get data on an input,
+ * how to access properties, how to provide data on an output.
+ */

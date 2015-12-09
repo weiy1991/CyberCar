@@ -1,0 +1,10 @@
+
+/*! \defgroup Chapter5 Chapter 5 - Miscellaneous functions.
+ * This section demonstrates several additional functions
+ * that can be helpful such as:
+ *	- how to write Actions
+ *	- how to dynamically create inputs, outputs and properties
+ *	- how to use properties of type Enumeration
+ *	- how to use personalized data structures in MAPSIOElts
+ */
+

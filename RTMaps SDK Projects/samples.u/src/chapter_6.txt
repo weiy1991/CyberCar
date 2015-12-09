@@ -1,0 +1,10 @@
+
+/*! \defgroup Chapter6 Chapter 6 - Multi threaded components.
+ * This section demonstrates how to write components that run
+ * multiple threads. This is quite rare but can happen in case
+ * of interfacing parallel prots in full duplex for example
+ * (one thread has to be waiting on a blocking StartReading call to
+ * get data on the component input, and a second thread has to be
+ * waiting on a blocking call to read incoming data on the bus).
+ */
+

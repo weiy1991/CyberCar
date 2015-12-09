@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentResources xmlns="http://schemas.intempora.com/RTMaps/2011/ComponentResources" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="CustomClock" xsi:schemaLocation="http://schemas.intempora.com/RTMaps/2011/ComponentResources http://www.intempora.com/schemas/RTMaps/2011/ComponentResources.xsd">
+<Type>Component</Type>
+<IconFile/>
+<TargetOS>OS-independent</TargetOS>
+<Lang lang="ENG">
+<GroupName/>
+<Documentation>
+<Component>
+<Alias>Custom Clock</Alias>
+<Description><![CDATA[This component is part of the RTMaps SDK samples, provided with source code.
+It shows how to write a custom clock for RTMaps inside your own component.
+In this component, the clock timespeed can vary according to the "timespeed" property.]]></Description>
+</Component>
+<Property MAPSName="timespeed">
+<Alias>timespeed</Alias>
+<Description><![CDATA[The desired timespeed that will be applied by the custom clock.
+1000 means real-time (100%), 5000 means 5 times quicker than real-time, etc...
+This value cannot be negative.]]></Description>
+<DefaultValue>1000</DefaultValue>
+</Property>
+<Property MAPSName="threaded">
+<Alias>threaded</Alias>
+<Description/>
+</Property>
+<Property MAPSName="priority">
+<Alias>priority</Alias>
+<Description/>
+</Property>
+</Documentation>
+</Lang>
+</ComponentResources>

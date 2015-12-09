@@ -1,0 +1,8 @@
+
+/*! \defgroup Chapter8 Chapter 8 - Custom clocks and synchronization
+ * This section demonstrates how to write components that can
+ * act on the RTMaps clock, either by correcting the current date
+ * from time to time (based on an external tick such as a PPS signal from
+ * a GPS for example), or by implementing a real clock inside a component.
+*/
+

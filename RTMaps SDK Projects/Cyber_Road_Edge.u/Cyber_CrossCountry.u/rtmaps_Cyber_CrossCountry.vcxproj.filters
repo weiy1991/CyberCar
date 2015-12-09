@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="Cyber_CrossCountry.pckinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4c79b1a4-e286-4fa1-9852-0c788b35cbac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="local_interfaces">
+      <UniqueIdentifier>{e82cdbf2-f7be-48df-9348-e8d80edb0d5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

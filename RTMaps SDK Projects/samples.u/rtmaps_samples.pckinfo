@@ -1,0 +1,5 @@
+# Package information for rtmaps_samples.pck
+VERSION=2.1
+DESCRIPTION=RTMaps SDK samples.
+
+#Version 2.1: maps_MultiThreadAndSynchronization to 1.1

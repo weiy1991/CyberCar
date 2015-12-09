@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cyber_Road_Edge", "rtmaps_Cyber_Road_Edge.vcxproj", "{E6548F6C-CC5C-4A05-99F0-66D7E4BE1A8A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cyber_CrossCountry", "Cyber_CrossCountry.u\rtmaps_Cyber_CrossCountry.vcxproj", "{D2C367D2-B525-4B29-85FD-7D5A45E14BBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6548F6C-CC5C-4A05-99F0-66D7E4BE1A8A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6548F6C-CC5C-4A05-99F0-66D7E4BE1A8A}.Debug|Win32.Build.0 = Debug|Win32
+		{E6548F6C-CC5C-4A05-99F0-66D7E4BE1A8A}.Release|Win32.ActiveCfg = Release|Win32
+		{E6548F6C-CC5C-4A05-99F0-66D7E4BE1A8A}.Release|Win32.Build.0 = Release|Win32
+		{D2C367D2-B525-4B29-85FD-7D5A45E14BBC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D2C367D2-B525-4B29-85FD-7D5A45E14BBC}.Debug|Win32.Build.0 = Debug|Win32
+		{D2C367D2-B525-4B29-85FD-7D5A45E14BBC}.Release|Win32.ActiveCfg = Release|Win32
+		{D2C367D2-B525-4B29-85FD-7D5A45E14BBC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

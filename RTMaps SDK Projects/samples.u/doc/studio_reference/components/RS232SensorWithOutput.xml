@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ComponentResources xmlns="http://schemas.intempora.com/RTMaps/2011/ComponentResources" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="RS232SensorWithOutput" xsi:schemaLocation="http://schemas.intempora.com/RTMaps/2011/ComponentResources http://www.intempora.com/schemas/RTMaps/2011/ComponentResources.xsd">
+<Type>Component</Type>
+<IconFile>processing.gif</IconFile>
+<TargetOS>OS-independent</TargetOS>
+<Lang lang="ENG">
+<GroupName/>
+<Documentation>
+<Component>
+<Alias>RS232SensorWithOutput</Alias>
+<Description><![CDATA[This is a sample of RS232 sensor component.<br>
+This module has one input that must be connected to an RS232 component
+output.<br>
+It also has one output to send bytes streams to the sensor via
+RS232 component.<br>
+And it has one more output to transmit sensor decoded 
+data to other RTMaps consumer components
+]]></Description>
+</Component>
+<Property MAPSName="threaded">
+<Alias>threaded</Alias>
+<Description/>
+</Property>
+<Property MAPSName="priority">
+<Alias>priority</Alias>
+<Description/>
+</Property>
+<Output MAPSName="oStream8">
+<Alias>oStream8</Alias>
+<Description><![CDATA[Use a Stream8 output to send data to the serial port.]]></Description>
+</Output>
+<Output MAPSName="oInteger">
+<Alias>oInteger</Alias>
+<Description><![CDATA[Use an integer vector to transmit decoded data (built from input stream)]]></Description>
+</Output>
+<Input MAPSName="iStream8">
+<Alias>iStream8</Alias>
+<Description><![CDATA[Use a Stream8 input to receive data. Stream8 data type is a sequence of bytes (cf to your programmer reference manual).]]></Description>
+</Input>
+</Documentation>
+</Lang>
+</ComponentResources>

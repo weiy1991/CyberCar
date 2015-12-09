@@ -1,0 +1,11 @@
+
+/*! \defgroup Chapter2 Chapter 2 - Mutliple inputs (IMPORTANT !).
+* The vectorizer_sample components demonstrate how to (and how NOT to...) 
+* write RTMaps components that have multiple inputs.
+* These samples show how to get integer data on several inputs, make a vector,
+* and output it.
+* This chapter is VERY IMPORTANT for the RTMaps programmer in order to understand
+* correctly the different behaviours of the RTMaps inputs (FifoReader,
+* SamplingReader, etc...) and the correct ways to use them.
+*/
+
